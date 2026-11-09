@@ -1,8 +1,16 @@
+
 import requests
+
+BASE_URL = "https://musicbrainz.org/ws/2"
+
+HEADERS = {
+    "User-Agent": "MusicETLPipeline/1.0 (your-real-email@example.com)"
+}
+
 
 def extract_artists(query):
 
-    url = "https://musicbrainz.org/ws/2/artist/"
+    url = f"{BASE_URL}/artist/"
 
     params = {
         "query": query,
@@ -10,14 +18,10 @@ def extract_artists(query):
         "limit": 10
     }
 
-    headers = {
-        "User-Agent": "SpotifyETLProject/1.0 (your_email@example.com)"
-    }
-
     response = requests.get(
         url,
         params=params,
-        headers=headers,
+        headers=HEADERS,
         timeout=30
     )
 

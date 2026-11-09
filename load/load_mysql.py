@@ -5,7 +5,6 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 from sqlalchemy import create_engine, text
-
 load_dotenv()
 
 
@@ -33,28 +32,55 @@ def load_to_mysql(df):
 
     engine = connect_db()
 
-    # Rename CSV column to match MySQL table
+    # Match CSV column names with MySQL schema
     df = df.rename(columns={
         "type": "artist_type"
     })
 
-    try:
-        df.to_sql(
-            name="artists",
-            con=engine,
-            if_exists="append",
-            index=False,
-            method="multi",
-            chunksize=500
-        )
+    # Convert Pandas missing values to None
+    df = df.astype(object).where(pd.notna(df), None)
 
-        print("Data loaded successfully!")
+    insert_query = text("""
+        INSERT INTO artists (
+            id, name, sort_name, artist_type,
+            gender, country, score,
+            life_span_begin, life_span_end,
+            disambiguation
+        )
+        VALUES (
+            :id, :name, :sort_name, :artist_type,
+            :gender, :country, :score,
+            :life_span_begin, :life_span_end,
+            :disambiguation
+        )
+        ON DUPLICATE KEY UPDATE
+            name = VALUES(name),
+            sort_name = VALUES(sort_name),
+            artist_type = VALUES(artist_type),
+            gender = VALUES(gender),
+            country = VALUES(country),
+            score = VALUES(score),
+            life_span_begin = VALUES(life_span_begin),
+            life_span_end = VALUES(life_span_end),
+            disambiguation = VALUES(disambiguation)
+    """)
+
+    records = df.to_dict(orient="records")
+
+    try:
+        with engine.begin() as connection:
+
+            connection.execute(insert_query, records)
+
+        print("Records processed:", len(records))
+        print("MySQL UPSERT completed successfully!")
 
     except Exception as error:
         print("Error loading data:", error)
 
     finally:
         engine.dispose()
+
 
 def main():
 

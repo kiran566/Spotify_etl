@@ -107,6 +107,20 @@ def main():
     print(df.isnull().sum())
 
     save_processed_data(df)
+# reusable
+def run_transformation(raw_data):
+
+    artists = raw_data.get("artists", [])
+
+    print("Raw artist records:", len(artists))
+
+    df = transform_artists(artists)
+
+    df = clean_artists(df)
+
+    save_processed_data(df)
+
+    return df
 
 
 if __name__ == "__main__":
