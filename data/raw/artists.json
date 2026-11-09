@@ -1,0 +1,293 @@
+{
+    "created": "2026-11-09T11:32:37.160Z",
+    "count": 18,
+    "offset": 0,
+    "artists": [
+        {
+            "id": "cf76861a-c1f5-456d-8d17-5994d05eecf8",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 100,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Anirudh Ravichander",
+            "sort-name": "Ravichander, Anirudh",
+            "gender": "male",
+            "country": "IN",
+            "area": {
+                "id": "d31a9a15-537f-3669-ad53-25753ddd2772",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "India",
+                "sort-name": "India",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "a03385a0-da43-41f9-bbfc-741b949c2e0c",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Chennai",
+                "sort-name": "Chennai",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "Indian composer and playback singer",
+            "isnis": [
+                "0000000372719009"
+            ],
+            "life-span": {
+                "begin": "1990-10-16",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Anirudh Ravichander",
+                    "name": "Anirudh Ravichander",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "filmi"
+                },
+                {
+                    "count": 1,
+                    "name": "composer"
+                },
+                {
+                    "count": 1,
+                    "name": "film composer"
+                }
+            ]
+        },
+        {
+            "id": "4a2b2ede-dedb-40c3-9201-f5f59d055dba",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 89,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "weird inside",
+            "sort-name": "weird inside",
+            "gender": "male",
+            "area": {
+                "id": "c8ee55f7-493b-48be-af81-bd14ae91df28",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Bridgewater",
+                "sort-name": "Bridgewater",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "ipis": [
+                "00762542829"
+            ],
+            "life-span": {
+                "begin": "1998-02-19",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "bharadwaj, anirudh",
+                    "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                    "name": "anirudh bharadwaj",
+                    "locale": null,
+                    "type": "Legal name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "instrumental hip hop"
+                },
+                {
+                    "count": 1,
+                    "name": "lo-fi hip hop"
+                },
+                {
+                    "count": 1,
+                    "name": "downtempo"
+                },
+                {
+                    "count": 1,
+                    "name": "instrumental"
+                },
+                {
+                    "count": 1,
+                    "name": "boom bap"
+                },
+                {
+                    "count": 1,
+                    "name": "hip hop"
+                },
+                {
+                    "count": 1,
+                    "name": "chillwave"
+                },
+                {
+                    "count": 1,
+                    "name": "lo-fi"
+                }
+            ]
+        },
+        {
+            "id": "05c856b2-5a3d-4d63-afd4-237ff8f6101b",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 86,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Anirudh Bhola",
+            "sort-name": "Bhola, Anirudh",
+            "gender": "male",
+            "country": "IN",
+            "area": {
+                "id": "d31a9a15-537f-3669-ad53-25753ddd2772",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "India",
+                "sort-name": "India",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "Indian playback singer",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "9304be82-3626-4b72-807e-a54d197f4e91",
+            "score": 86,
+            "name": "Anirudh Iyer",
+            "sort-name": "Iyer, Anirudh",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "4a1905aa-2c9c-42fa-a6b6-64999c25b727",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 85,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Anirudh Srinivasan",
+            "sort-name": "“Last Name, First Name”",
+            "gender": "male",
+            "country": "IN",
+            "area": {
+                "id": "d31a9a15-537f-3669-ad53-25753ddd2772",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "India",
+                "sort-name": "India",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "Sri Sathya Sai Sadhana Trust",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "a19e3c12-a8b9-478e-9e15-312f4cd627c9",
+            "score": 85,
+            "name": "Anirudh Kota",
+            "sort-name": "Kota, Anirudh",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "8e4cc132-9aa3-4669-b906-66b28c989f28",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 85,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Anirudh Ravi",
+            "sort-name": "Ravi, Anirudh",
+            "gender": "male",
+            "area": {
+                "id": "311cd57a-5b37-4660-a496-218e976b9293",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Bangalore",
+                "sort-name": "Bangalore",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "2b3ac7e2-2a71-4b7f-b0c0-67129f7ebd11",
+            "score": 85,
+            "name": "Anirudh Loomba",
+            "sort-name": "Loomba, Anirudh",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "c99de1ae-069e-46fe-a124-e650efc47187",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 85,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Anirudh Menon",
+            "sort-name": "Ani",
+            "gender": "male",
+            "area": {
+                "id": "a36544c1-cb40-4f44-9e0e-7a5a69e403a8",
+                "type": "Subdivision",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                "name": "New Jersey",
+                "sort-name": "New Jersey",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "a36544c1-cb40-4f44-9e0e-7a5a69e403a8",
+                "type": "Subdivision",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                "name": "New Jersey",
+                "sort-name": "New Jersey",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "Young Pheno",
+            "life-span": {
+                "begin": "2001",
+                "ended": null
+            }
+        },
+        {
+            "id": "c0bd7ee0-6406-4b23-a13a-ebcb9b075da3",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 85,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Anirudh Rajagopalan",
+            "sort-name": "Rajagopalan, Anirudh",
+            "gender": "male",
+            "life-span": {
+                "begin": "1998",
+                "ended": null
+            }
+        }
+    ]
+}
